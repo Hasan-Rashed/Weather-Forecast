@@ -77,6 +77,10 @@ const handleSubmit = (event) => {
             <p className="text-lg justify-start"><span className="px-5 py-5">Max temp</span><strong>{`${data.main.temp_max}`}</strong></p>
             <p className="text-lg justify-start"><span className="px-5 py-5">Min temp</span><strong>{`${data.main.temp_min}`}</strong></p>
           </div>
+          <div className="text-center">
+            {/* html tag for copyright */}
+            <p className="text-gray-500 text-sm my-5 items-center justify-center">&copy; 2023 by <a href="https://github.com/Hasan-Rashed">Hasan Rashed</a></p>
+          </div>
         </div>
       </div>
       </DataProvider >
